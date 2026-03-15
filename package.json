@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/ts-invariant-ts.git"
+    "url": "git+https://github.com/philiprehberger/ts-invariant.git"
   },
-  "homepage": "https://github.com/philiprehberger/ts-invariant-ts#readme",
+  "homepage": "https://github.com/philiprehberger/ts-invariant#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/ts-invariant-ts/issues"
+    "url": "https://github.com/philiprehberger/ts-invariant/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
