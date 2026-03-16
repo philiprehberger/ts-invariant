@@ -1,21 +1,21 @@
-# @philiprehberger/invariant-ts
+# @philiprehberger/ts-invariant
 
-[![CI](https://github.com/philiprehberger/invariant-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/invariant-ts/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/invariant-ts.svg)](https://www.npmjs.com/package/@philiprehberger/invariant-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/invariant-ts)](LICENSE)
+[![CI](https://github.com/philiprehberger/ts-invariant/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-invariant/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-invariant.svg)](https://www.npmjs.com/package/@philiprehberger/ts-invariant)
+[![License](https://img.shields.io/github/license/philiprehberger/ts-invariant)](LICENSE)
 
 Tiny runtime assertion with TypeScript narrowing.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/invariant-ts
+npm install @philiprehberger/ts-invariant
 ```
 
 ## Usage
 
 ```ts
-import { invariant, assertNever, unreachable } from '@philiprehberger/invariant-ts';
+import { invariant, assertNever, unreachable } from '@philiprehberger/ts-invariant';
 
 const user = getUser(id);
 invariant(user, 'User %s not found', id);
@@ -36,7 +36,7 @@ switch (shape) {
 ### Custom Error Classes
 
 ```ts
-import { invariantAs } from '@philiprehberger/invariant-ts';
+import { invariantAs } from '@philiprehberger/ts-invariant';
 
 class NotFoundError extends Error {
   constructor(message?: string) {
