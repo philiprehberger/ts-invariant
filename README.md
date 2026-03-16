@@ -1,5 +1,9 @@
 # @philiprehberger/invariant-ts
 
+[![CI](https://github.com/philiprehberger/invariant-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/invariant-ts/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/invariant-ts.svg)](https://www.npmjs.com/package/@philiprehberger/invariant-ts)
+[![License](https://img.shields.io/github/license/philiprehberger/invariant-ts)](LICENSE)
+
 Tiny runtime assertion with TypeScript narrowing.
 
 ## Installation
