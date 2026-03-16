@@ -1,6 +1,6 @@
 # @philiprehberger/ts-invariant
 
-[![CI](https://github.com/philiprehberger/ts-invariant/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-invariant/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-invariant/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-invariant/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-invariant.svg)](https://www.npmjs.com/package/@philiprehberger/ts-invariant)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-invariant)](LICENSE)
 
@@ -57,6 +57,15 @@ invariantAs(NotFoundError, user, 'User not found');
 | `assertNever(value)` | Exhaustiveness checking for switch/if chains |
 | `unreachable(message?)` | Mark unreachable code paths |
 | `InvariantError` | Error class thrown by `invariant()` |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
