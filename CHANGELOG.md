@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+
+- Add `assertDefined(value, message?)` for narrowing `T | null | undefined` to `T`
+- Add `assertType(value, guard, message?)` for narrowing via an arbitrary type guard
+- Fix README badge and Support links to use the correct `ts-invariant` repo slug
+
 ## 0.1.4
 
 - Standardize README to 3-badge format with emoji Support section
